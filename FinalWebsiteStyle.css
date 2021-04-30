@@ -1,0 +1,87 @@
+body {
+    color:turquoise;
+    font-size: 1.25em;
+    font-family: Cambria, serif;
+    width: 90%;
+    padding: 2em 4em 2em 4em;
+    margin:auto;
+
+}
+h1 {
+    color:tomato;
+    background-color:linen;
+    width: fit-content;
+    font-style:italic
+}
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+
+p strong {
+    color:tomato;
+    background-color:linen;
+    font-weight: 800;
+}
+li strong {
+    color:tomato;
+    background-color:linen;
+    font-weight: 800;
+}
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    background-color: linen;
+    padding: 0.5em;
+  }
+  th {
+      color: black;
+  }
+  table {
+    table-layout: fixed ;
+    width: 100% ;
+  }
+  td {
+    width: 25% ;
+  }
+div.information {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+div.navbar {
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-between
+
+}
+div.nav {
+    font-size: 1.75em;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    background-color: linen;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+img.fit {
+    width: 200px;
+    max-width: 300px;
+}
+div.Fitnessname {
+    text-align: center;
+    width: 8em;
+}
+div.Fitnessimage {
+    padding-top: 1em;
+}
+div.foot {
+    text-align: left;
+    padding: .5em
+}
+div.footer {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

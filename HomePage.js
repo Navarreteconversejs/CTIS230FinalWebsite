@@ -7,6 +7,6 @@ myitem = document.getElementById("firstsite");
     }
 
 function onMouseOut() {
-    myitem.style.color= "teal";
+    myitem.style.color= "dimgray";
     myitem.style.backgroundColor= "white";
 }

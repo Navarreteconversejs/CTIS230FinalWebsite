@@ -1,5 +1,5 @@
 body {
-    color:turquoise;
+    color:dimgray;
     font-size: 1.25em;
     font-family: Cambria, serif;
     width: 90%;
@@ -29,6 +29,18 @@ li strong {
     background-color:linen;
     font-weight: 800;
 }
+a:link{
+    color:crimson
+}
+a:visited{
+    color:darkcyan
+}
+a:hover{
+    color:darkmagenta
+}
+a:active{
+    color:darkblue
+}
 table, th, td {
     border: 2px solid black;
     text-align: center;
@@ -57,13 +69,14 @@ div.navbar {
 
 }
 div.nav {
-    font-size: 1.75em;
+    font-size: 2.0vw;
     text-align: center;
     border: 2px solid black;
-    width: 30%;
+    width: calc(30%);
     background-color: linen;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img.fit {
     width: 200px;
@@ -71,7 +84,6 @@ img.fit {
 }
 div.Fitnessname {
     text-align: center;
-    width: 8em;
 }
 div.Fitnessimage {
     padding-top: 1em;
@@ -84,4 +96,17 @@ div.footer {
     display:flex;
     justify-content: space-around;
     flex-direction: column;
+}
+@media screen and (max-height: 24em) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+} 
+@media screen and (max-width: 30em) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   
 }

@@ -96,6 +96,7 @@ div.footer {
     display:flex;
     justify-content: space-around;
     flex-direction: column;
+    border: 2px dotted black;
 }
 @media screen and (max-height: 24em) {
     body {

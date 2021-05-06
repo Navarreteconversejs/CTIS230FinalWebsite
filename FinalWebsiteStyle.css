@@ -29,18 +29,21 @@ li strong {
     background-color:linen;
     font-weight: 800;
 }
-a:link{
-    color:crimson
-}
-a:visited{
-    color:darkcyan
-}
-a:hover{
-    color:darkmagenta
-}
-a:active{
-    color:darkblue
-}
+a {
+    text-decoration: none;
+    color: dimgray;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    background-size: 100% 3px;
+  }
 table, th, td {
     border: 2px solid black;
     text-align: center;
